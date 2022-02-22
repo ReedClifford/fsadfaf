@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Ubuntu", sans-serif;
+    color: #FCDAB7;
+  
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    list-style: 1.5;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+  }
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FCDAB7;
+  }
+  hr {
+    background-color: #FCDAB7;
+  }
+  a {
+    font-family: monospace;
+    color: #FCDAB7;
+    font-weight: bold;
+  }
+  
+  /* navigation bar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+  
+    
+  
+  }
+  .navlogo {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+  .navbar-nav{
+    display: flex;
+    list-style: none;
+  
+  
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 10px;
+    
+   
+  
+  }
+  .nav-item a{
+    text-decoration: none;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 15px;
+    
+  }
+  .btn{
+    border:3px solid #FCDAB7;
+    color: #FCDAB7;
+    border-radius: 20px 20px 20px 20px;
+    background: none;
+    font-size: 1rem;
+    padding: 2px;
+    width: 120px;
+    height: 45px;
+    font-weight: bolder;
+  }
+  .btn:hover{
+    border-color:#1D2D50 ;
+    background-color: #1D2D50;
+    color: white;
+  }
+  .nav-link:hover{
+    color: #1D2D50;
+  }
+  
+  
+  /* MainSection */
+  #main .container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("images/main-nightmode.jpeg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    padding: 0;
+  }
+  
+  .header1 {
+    margin: 100px auto;
+  }
+
+.btn-darkmode{
+  border:3px solid #1E5F74;
+  color: #1E5F74;
+  border-radius: 20px 20px 20px 20px;
+  background: none;
+  font-size: 1rem;
+  padding: 2px;
+  width: 200px;
+  height: 45px;
+  font-weight: bolder;
+  margin: 40px 10px;
+}
+.btn-darkmode:hover{
+    border-color:#1D2D50 ;
+    background-color: #1D2D50;
+    color: white;
+
+}
+.btn-summer{
+    border:3px solid #F7FD04;
+    color: #F7FD04;
+    border-radius: 20px 20px 20px 20px;
+    background: none;
+    font-size: 1rem;
+    padding: 2px;
+    width: 200px;
+    height: 45px;
+    font-weight: bolder;
+    margin: 40px 10px;
+
+}
+.btn-summer:hover{
+    border-color:#FC5404 ;
+    background-color: #FC5404;
+    color: #66DE93;
+
+}
+  /* Second Section */
+  #aboutus{
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/darkmode/audarkmode.jpeg");
+      background-position: center;
+      background-size: cover;
+  }
+  #aboutus .container-fluid{
+    padding: 20px;
+  
+  
+  }
+  #aboutus h1,h2 {
+    color: #FCDAB7;
+  }
+  
+  #aboutus p {
+    color: #FCDAB7;
+    line-height: 1.5;
+    margin: 5px 50px;
+  }
+  .row{
+    display: flex;
+  }
+  .scontainer1 {
+    padding: 50px;
+  
+  
+  }
+  .scontainer2 {
+    padding: 50px;
+  
+  
+  }
+  .image1 {
+    width: 650px;
+    height: 75vh;
+    margin-left: 20px;
+    border:4px solid #1E5F74;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+  }
+  .image2 {
+    width: 650px;
+    height: 75vh;
+    margin-right: 20px;
+    border:4px solid #1E5F74;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+  }
+  
+  /* testimonials */
+  #testimonials {
+    padding: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.95)),url("images/darkmode/faqdarkmode.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+  }
+  #testimonials h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  #testimonials p{
+      margin:20px 20px;
+  }
+  .card {
+    padding: 30px;
+    background-color: #1D2D50;
+    border-radius: 10px 70px 10px 70px;
+    margin: 20px 15px;
+       
+  }
+  .imgtestimonial {
+    padding: 10px;
+    border: #FCDAB7 2px solid;
+    width: 50%;
+    border-radius: 100%;
+    margin: 20px auto;
+  }
+  
+  /* faq */
+  #faq{
+    padding: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.95)),url("images/darkmode/faqdarkmode.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    
+  }
+  
+  #faq p{
+    margin:20px 40px;
+  
+  }
+  #faq h2{
+    color: #FCDAB7;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  #faq h4{
+    padding:  40px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  
+  }
+  .faq1,.faq2,.faq3,.faq4{
+    width: 50%;
+    margin:20px 15px;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    border:5px solid #FCDAB7;
+    height: 75vh;
+    box-sizing: content-box;
+  }
+  
+  .faq1{
+    border-radius: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/faq1.jpeg") ;
+  
+  }
+  .faq2{
+    border-radius: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/faq2.jpeg") ;
+  
+  
+  }
+  .faq3{
+    border-radius: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/faq3.jpeg") ;
+  
+  }
+  .faq4{
+    border-radius: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/faq4.jpeg") ;
+  
+  }
+  
+  /* footer */
+  #contactus {
+    padding: 40px;
+    background-color: black;
+  }
+  .contacts {
+    padding: 20px;
+    margin: 30px auto;
+  }
+  .founder {
+    width: 10%;
+    border: 5px solid;
+    margin: 30px auto;
+    border-radius: 100%;
+    border-color: #022736;
+  }
+  
+  #contactus a:hover{
+    color: #022736;
+  }
+  
